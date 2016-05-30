@@ -1,0 +1,40 @@
+.search-bar {
+	margin: 20px;
+	text-align: center;
+}
+
+.search-bar input {
+	width: 100%;
+	border-radius: 4px;
+	padding: 10px;
+	padding-bottom: 5px;
+	font-size:1.5em;
+	box-shadow: 0;
+	text-align: center;
+	border: 0;
+	border-bottom: thin solid black;
+}
+
+.search-bar input:active,
+.search-bar input:focus {
+	outline: none;
+}
+
+.video-item img {
+	max-width:64px;
+}
+
+.video-detail .details {
+	margin-top: 10px;
+	padding: 10px;
+	border: thin solid #ddd;
+	border-radius: 4px;
+}
+
+.list-group-item {
+	cursor: pointer;
+}
+
+.list-group-item:hover {
+	background-color: #eee;
+}
